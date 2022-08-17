@@ -319,7 +319,6 @@ class DefaultLoadMoreViewState extends State<DefaultLoadMoreView> {
         }
       },
       child: Container(
-        height: delegate.widgetHeight(widget.status),
         alignment: Alignment.center,
         child: delegate.buildChild(
           widget.status,
